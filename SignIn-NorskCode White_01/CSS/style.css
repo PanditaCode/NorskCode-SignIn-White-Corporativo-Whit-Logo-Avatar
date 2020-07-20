@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu:wght@500&display=swap');
+
+@media (min-width:576px) {
+
+
+    * {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: josefin Sans;
+        color: rgb(29, 34, 34)
+    }
+
+    /* cuerpo del formulario de inicio 
+    de seccion */
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        color: #000000;
+        background-image: url(../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    /* Avatar del Login del formulario de inicio 
+    de seccion */
+    div.barbudo {
+        height: 100px;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        margin: auto;
+        display: block;
+        margin: auto;
+    }
+
+    /* Marco cuadro del formulario de inicio 
+    de seccion */
+    .fondo {
+        width: 380px;
+        height: 600px;
+        background: #ffffff;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        align-items: center;
+        border-radius: 3%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /* tutulo del cuadro del formulario de inicio 
+    de seccion */
+    .fondo title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+    }
+
+    /* Cuerpo del formulario de inicio 
+    de seccion */
+    .fondo Form {
+        margin: 0;
+        width: 100%;
+        padding: 0 0 10px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .fondo .Login-inp h3 {
+        font-size: 27px;
+        color: #000000;
+        line-height: 50px;
+        padding: 0 0 20px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .Login-inp input {
+        height: 30px;
+        width: 100px;
+        display: inline-block;
+        padding: 8px 90px;
+        font-size: 17px;
+        color: #000000;
+        background: #ffffff;
+        border-radius: 15px;
+        margin-top: 15px;
+        text-align: center;
+        border: 2px solid #8996a0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+    .Login-inp input[type="submit"] {
+        outline: none;
+        height: 55px;
+        background: #00c1b2;
+        color: #ffffff;
+        font-size: 28px;
+        border-radius: 50px;
+        width: 91%;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 1px;
+        border: 2px solid #8996a0;
+    }
+
+    .Login-inp form a {
+        text-decoration: none;
+        font-size: 13px;
+        padding: 10px;
+        line-height: 10px;
+        color: #00a5dc;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 1px;
+        ;
+    }
+
+    /* Firma del Desarrollador*/
+    .Login-inp form h4 {
+        text-decoration: none;
+        font-size: 0.5em;
+        line-height: 13px;
+        color: #204056;
+        letter-spacing: 1px;
+        padding: 70px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+    /* Cabecera del formulario de inicio 
+    de seccion */
+    header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        background-color: (0, 0, 0, 0.3);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    header h1 {
+        margin-left: 50px;
+        font-family: Montez;
+        font-size: 40px;
+        color: #b9dca4;
+        padding: 20px;
+        font-family: 'Kaushan Script', cursive;
+    }
+
+    header a {
+        margin-right: 30px;
+        text-align: center;
+        text-decoration: none;
+        color: #f6f6f5;
+        font-size: 18px;
+        transition: all ease 300ms;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    header a :hover {
+        color: rgb(29, 34, 34);
